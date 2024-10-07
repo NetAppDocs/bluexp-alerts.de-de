@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: alerts-use-alerts.html 
+keywords: alerts, ontap, netapp, system manager, bluexp 
+summary: Dank BlueXP -Warnmeldungen lassen sich Warnmeldungen zu Ihrer ONTAP Storage-Umgebung anzeigen sowie Details anzeigen, die mit BlueXP  System Manager verknüpft sind. 
+---
+= Zeigen Sie Alarmdetails in Ihrer ONTAP Storage-Umgebung an
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXP  Warnmeldungen lassen sich anzeigen, sodass Sie Warnmeldungen zu Ihrer ONTAP Storage-Umgebung anzeigen können, und Details anzeigen können.
+
+
+
+== Anzeigen von Alarmdetails
+
+. Wählen Sie auf der Seite Warnungen eine Warnmeldung aus.
++
+image:alerts-detail.png["Warnungsdetails"]
+
+. Scrollen Sie nach unten, um Vorschläge für Korrekturmaßnahmen zu finden.
+. Blättern Sie nach unten, um weitere Warnmeldungen zu dem Objekt zu finden, für das die Warnmeldung ausgegeben wurde.
+
+
+
+
+== Zeigen Sie Details zum Cluster in BlueXP  System Manager an
+
+. Wählen Sie auf der Seite Warnungen eine Warnmeldung aus.
+. Klicken Sie in der Warnmeldung oben auf der Seite auf den Cluster-Namen.
++
+In BlueXP  System Manager werden Ihnen jetzt Informationen über das Cluster angezeigt.
+
++
+image:alerts-system-manager-cluster.png["BlueXP  System Manager mit Cluster-Informationen"]
+
+

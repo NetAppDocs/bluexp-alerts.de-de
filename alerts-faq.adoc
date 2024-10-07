@@ -1,0 +1,67 @@
+---
+sidebar: sidebar 
+permalink: alerts-faq.html 
+keywords: alerts faq, alerts frequently asked questions, bluexp, bluexp alert 
+summary: Diese BlueXP  Alerts FAQ können helfen, wenn Sie nur nach einer schnellen Antwort auf eine Frage suchen. 
+---
+= Häufig gestellte Fragen zu BlueXP -Alarmen
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Diese FAQ kann Ihnen helfen, wenn Sie nur nach einer schnellen Antwort auf eine Frage suchen.
+
+
+
+== Zugriff auf BlueXP -Warnmeldungen
+
+*Was ist die BlueXP  Alerts URL?* Geben Sie für die URL in einem Browser Folgendes ein: https://console.bluexp.netapp.com/["https://console.bluexp.netapp.com/"^] , um auf die BlueXP  Konsole zuzugreifen.
+
+*Benötigen Sie eine Lizenz, um BlueXP  Alerts zu verwenden?*
+
+Der BlueXP  Alerts Service erfordert eine NetApp ONTAP 9 10 oder eine höhere Lizenz. Die Lizenz muss nicht in BlueXP  Digital Wallet eingegeben werden.
+
+Sie benötigen für diesen Service keine Testlizenz.
+
+*Wie können Sie BlueXP -Warnungen aktivieren?* BlueXP -Warnmeldungen erfordern keine Aktivierung. Die Option Warnmeldungen wird automatisch in der linken BlueXP -Navigation aktiviert.
+
+Wenn Sie den BlueXP  Connector verwenden, werden damit die entsprechenden Funktionen für den Service bereitgestellt.
+
+**Gibt es BlueXP -Warnungen im Standard-, eingeschränkten und privaten Modus?** Der Service kann nur nach dem BlueXP -Standard (öffentlich) bereitgestellt werden.
+
+Eine Erläuterung dieser Modi für alle BlueXP -Dienste finden Sie unter https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["BlueXP Implementierungsmodi"^].
+
+**Wie werden Zugriffsberechtigungen behandelt?** Nur BlueXP -Administratoren können den BlueXP -Warndienst starten und Workloads erkennen (da dies die Verpflichtung zur Nutzung einer Ressource beinhaltet).
+
+Angemeldete Benutzer werden abhängig von ihrem Zugriff auf die Clusterressource in dieser BlueXP -Organisation Warnmeldungen angezeigt.
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/concept-netapp-accounts.html["Erfahren Sie mehr über BlueXP  Organisationen"].
+
+
+
+== Anzeigen von Meldungen
+
+**Wie lange muss ich warten, bevor ich mit dem Erlangen von Alarmen beginne?**
+
+Warten Sie maximal 15 Minuten auf die erste Erkennung und danach maximal 5 Minuten auf die Anzeige von Warnungen. Dies variiert von Alarm zu Alarm.
+
+**Warum kann ich die Warnungen für ONTAP nicht im Direktmodus ohne BlueXP -Anschluss sehen?*
+
+BlueXP -Warnmeldungen sind nur über den On-Premises-Standard-BlueXP -Connector verfügbar. Bei Verwendung des Direktmodus werden die Cluster nicht überwacht und die Warnmeldungen werden nicht angezeigt.
+
+**Warum verschwinden einige Warnmeldungen von der Seite der Warnungsliste?**
+
+Die Warnungsfunktion behält einige Warnmeldungen den Status „aktiv“ bei und schließt sie, nachdem entweder die Zählerbedingung erfüllt oder ein Zeitraum erreicht wurde. Dies variiert von Alarm zu Alarm.
+
+Um alle Warnmeldungen anzuzeigen, wählen Sie den Spaltenfilter Status aus, und wählen Sie die Option Geschlossen.
+
+
+
+== Anzeige von Informationen
+
+**Welche Geräteauflösung ist am besten?** Die empfohlene Geräteauflösung für BlueXP -Warnungen ist 1920 x 1080 oder höher.
+
+**Welcher Browser sollte ich verwenden?** Jeder moderne Browser funktioniert.

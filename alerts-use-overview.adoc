@@ -1,0 +1,19 @@
+---
+sidebar: sidebar 
+permalink: alerts-use-overview.html 
+keywords: alerts, alerts, ontap, netapp 
+summary: Mithilfe von BlueXP  Warnmeldungen können Sie den Workload-Zustand anzeigen und Workloads schützen. 
+---
+= Verwenden Sie BlueXP -Warnmeldungen
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Mithilfe von BlueXP -Warnmeldungen können Sie Storage-Probleme anzeigen und Details mit Links direkt zu System Manager anzeigen.
+
+* link:alerts-use-dashboard.html["Zeigen Sie Storage-Probleme oder potenzielle Risiken auf der Seite mit der Meldungsliste an"].
+* link:alerts-use-alerts.html["Zeigen Sie Warnungsdetails an, die in System Manager verknüpft sind"]
+

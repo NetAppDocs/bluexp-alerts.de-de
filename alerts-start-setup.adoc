@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: alerts-start-setup.html 
+keywords: bluexp, alerts, ontap, netapp 
+summary: Um BlueXP -Warnungen zu verwenden, führen Sie ein paar Schritte durch, um sie einzurichten. 
+---
+= Richten Sie BlueXP -Warnmeldungen ein
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Um BlueXP -Warnungen zu verwenden, führen Sie ein paar Schritte durch, um sie einzurichten.
+
+Prüfen Sie vor dem Startenlink:alerts-start-prerequisites.html["Voraussetzungen"], ob Ihre Umgebung für Sie bereit ist.
+
+Überprüfen https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["Standard-BlueXP Anforderungen erfüllt"^].
+
+
+
+== Zugriff auf Cluster-Ressourcen
+
+Um die Warnungen anzuzeigen, muss der angemeldete Benutzer Teil der BlueXP -Organisation sein und über den erforderlichen Zugriff auf die Clusterressource verfügen.
+
+
+
+== BlueXP Connector erstellen
+
+Wenden Sie sich an Ihren NetApp Vertriebsmitarbeiter, um diesen Service auszuprobieren oder zu nutzen. Wenn Sie dann den BlueXP -Anschluss verwenden, werden die entsprechenden Funktionen für den Warndienst bereitgestellt.
+
+Informationen zum Erstellen eines Connectors in BlueXP  vor der Verwendung des Dienstes finden Sie in der BlueXP -Dokumentation, die beschrieben https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["So erstellen Sie einen BlueXP Connector"^]wird.
+
+Warten Sie nach der Einrichtung des Connectors und dem Hinzufügen der Arbeitsumgebung ca. 15 Minuten auf die erste Ermittlung.

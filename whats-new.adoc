@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, ontap, bluexp, system manager' 
+summary: Erfahren Sie, welche neuen BlueXP -Warnmeldungen es gibt. 
+---
+= Versionshinweise: Neuerungen bei BlueXP  Warnmeldungsschutz
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Erfahren Sie, welche neuen BlueXP -Warnmeldungen es gibt.
+
+
+
+== 7 Oktober 2024
+
+Diese erste Version von BlueXP  Warnmeldungen beinhaltet folgende Funktionen:
+
+* *BlueXP  Alerts List page*: Sie können schnell ONTAP-Cluster identifizieren, die über eine geringe Kapazität oder Performance verfügen, den Umfang der Verfügbarkeit messen und Sicherheitsrisiken identifizieren. Sie können Warnmeldungen zu Kapazität, Performance, Sicherung, Verfügbarkeit, Sicherheit und Konfiguration anzeigen.
+* *Alerts Details*: Sie können Details zu Warnmeldungen anzeigen und Empfehlungen finden.
+* *Mit System Manager verknüpfte Cluster-Details anzeigen*: Mit BlueXP -Warnmeldungen können Sie Warnmeldungen zu Ihrer ONTAP-Storage-Umgebung anzeigen und Details aufrufen, die mit NetApp System Manager verknüpft sind.
+
+
+https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html["Informieren Sie sich über BlueXP -Warnmeldungen"].

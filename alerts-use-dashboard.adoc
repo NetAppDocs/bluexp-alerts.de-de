@@ -1,0 +1,174 @@
+---
+sidebar: sidebar 
+permalink: alerts-use-dashboard.html 
+keywords: alerts, alerts dashboard, ontap, netapp, bluexp, cluster,capacity, protection, security 
+summary: Der BlueXP  Alerts Service bietet auf einen Blick Informationen zum Zustand Ihrer ONTAP Umgebung. ONTAP Cluster mit geringer Kapazität oder niedriger Performance lassen sich schnell identifizieren, Verfügbarkeitsgrenzen überprüfen, die Verfügbarkeit ermitteln und Sicherheitsrisiken identifizieren. 
+---
+= Zeigen Sie potenzielle Risiken im ONTAP-Storage über die Seite mit der Meldungsliste an
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Der BlueXP  Alerts Service bietet auf einen Blick Informationen zu potenziellen Risiken in Ihrer ONTAP Umgebung. ONTAP Cluster mit geringer Kapazität oder niedriger Performance lassen sich schnell identifizieren, Verfügbarkeitsgrenzen überprüfen, die Verfügbarkeit ermitteln und Sicherheitsrisiken identifizieren.
+
+Der BlueXP  Alerts Service enthält Informationen zu diesen Schweregraden und Auswirkungsbereichen:
+
+* *Schweregrade*: Kritisch, Warnung, Informativ
+* *Wirkungsbereiche*: Kapazität, Leistung, Verfügbarkeit, Schutz, Sicherheit, Konfiguration
+
+
+
+
+== Warnmeldungen, die angezeigt werden könnten
+
+Hier sind einige der Warnungen, die der Dienst anzeigt.
+
+Der EMS-Schweregrad weist den Schweregrad der BlueXP -Warnmeldungen auf folgende Weise zu:
+
+[cols="40,40"]
+|===
+| Schweregrad des EMS-Alarms: | Schweregrad der BlueXP -Warnmeldung: 
+
+
+| Alarm oder Notfall | Kritisch 
+
+
+| Fehler | Keine 
+
+
+| Niedrig | Warnung 
+
+
+| Hinweis | Information 
+
+
+| Information | Information 
+|===
+.Liste der Warnmeldungen
+[%collapsible]
+====
+Kritische Schweregrade:
+
+* Der Aggregatstatus ist nicht online
+* Festplattenausfall
+* Die SnapMirror-Verzögerungszeit ist hoch
+* Der Volume-Status ist offline
+* Prozentuale Verletzung des verwendeten Volumens
+
+
+EMS-Warnungen:
+
+* Antivirus-Server ausgelastet
+* Die AWS-Anmeldedaten wurden nicht initialisiert
+* Cloud-Tier nicht erreichbar
+* Festplatte außer Betrieb
+* Festplatten-Shelf-Stromversorgung erkannt
+* Festplatten-Shelfs Netzteil entfernt
+* Neusynchronisierung der FabricPool Spiegelreplikation abgeschlossen
+* Die maximal zulässige Speichernutzung von FabricPool wurde fast erreicht
+* Die maximal zulässige FabricPool-Speicherplatznutzung wurde erreicht
+* Befehle für den FC-Zielport wurden überschritten
+* Giveback des Speicherpools fehlgeschlagen
+* HA Interconnect ist ausgefallen
+* LUN zerstört
+* LUN ist offline
+* Lüfter der Haupteinheit ausgefallen
+* Hauptgebläse im Warnzustand
+* Max. Anzahl Sitzungen pro Benutzer überschritten
+* Max. Anzahl offener Dateien pro Datei überschritten
+* Die automatische, ungeplante MetroCluster-Umschaltung ist deaktiviert
+* MetroCluster-Monitoring
+* NetBIOS-Namenskonflikt
+* NFSv4-Wunden-Pool erschöpft
+* Node-Panic
+* Root-Volume-Speicherplatz des Node gering
+* Nicht vorhandene Admin-Freigabe
+* Nicht reaktionsfähiger Virenschutz-Server
+* Kein registriertes Scan-Engine
+* Keine Vscan-Verbindung
+* NVMe Namespace zerstört
+* NVMe Namespace offline
+* NVMe Namespace online
+* Kulanzzeit für NVMe-of-Lizenz aktiv
+* Gnadenfrist für NVMe-of-Lizenz abgelaufen
+* Kulanzzeit für NVMe-of-Lizenz beginnt
+* NVRAM-Batterie schwach
+* Der Host des Objektspeichers ist nicht lösbar
+* Objektspeicher Intercluster LIF ist ausgefallen
+* Die Signatur des Objektspeichers stimmt nicht überein
+* Speicher des QoS-Monitors ist ausgeschöpft
+* Ransomware-Aktivität erkannt
+* Speicherpool konnte nicht verschoben werden
+* ONTAP Mediator hinzugefügt
+* Zugriff auf ONTAP Mediator nicht möglich
+* ONTAP Mediator nicht erreichbar
+* ONTAP Mediator entfernt
+* Zeitüberschreitung bei READDIR
+* DER Status „aktiv/aktiv“ des SAN wurde geändert
+* Serviceprozessor-Heartbeat verpasst
+* Der Service-Prozessor-Heartbeat wurde angehalten
+* Der Service-Prozessor ist offline
+* Der Service-Prozessor ist nicht konfiguriert
+* Schattenkopie fehlgeschlagen
+* SFP in FC Target Adapter mit geringer Leistung
+* SFP-in-FC-Target-Adapter, der geringe Leistungsaufnahme überträgt
+* Shelf-Lüfter fehlgeschlagen
+* SMBC-CA-Zertifikat abgelaufen
+* SMBC-CA-Zertifikat läuft ab
+* SMBC-Clientzertifikat abgelaufen
+* SMBC-Clientzertifikat läuft ab
+* SMBC-Beziehung nicht synchron
+* SMBC-Serverzertifikat abgelaufen
+* SMBC-Serverzertifikat läuft ab
+* SnapMirror-Beziehung nicht synchron
+* Stromversorgung des Speicherschalters fehlgeschlagen
+* Monitoring des Ransomware-Schutz für Storage VM
+* Speicher-VM-Stopp erfolgreich
+* Das System kann aufgrund eines Lüfterausfalls der Haupteinheit nicht betrieben werden
+* Zu viele CIFS-Authentifizierungen
+* Nicht zugewiesene Festplatten
+* Nicht autorisierter Benutzerzugriff auf Administratorfreigabe
+* Virus erkannt
+* Volume Anti-Ransomware Monitoring
+* Automatische Größenänderung des Volumens erfolgreich
+* Volume ist offline
+* Volume-Beschränkungen
+
+
+====
+Details zu ONTAP-Warnmeldungen finden Sie in der ONTAP-Dokumentation und in den Erkenntnissen zu System Manager unter https://docs.netapp.com/us-en/ontap/concepts/insights-system-optimization-concept.html["System Manager bietet Einblicke in Kapazitäts-, Sicherheits- und Konfigurationsprobleme"^].
+
+
+
+== Zeigen Sie ONTAP-Speicherprobleme an
+
+.Schritte
+. Wählen Sie in der linken BlueXP -Navigation *Überwachung* > *Alarme*.
++
+Nach der Erkennung wird auf der Seite Meldungsliste eine Liste der Warnmeldungen in der ONTAP-Umgebung angezeigt.
+
++
+Es kann zu einer Verzögerung zwischen einem Ereignis und BlueXP  Warnmeldungen kommen, die es anzeigen.
+
+. Auf der Seite Meldungsliste können Sie eine der folgenden Optionen anzeigen und ausführen:
++
+** Ändern Sie die Sortierreihenfolge, indem Sie auf den nach-oben- oder nach-unten-Pfeil für eine Spalte klicken.
+** Ändern Sie den Filter in den Spalten, um nur die gewünschten Informationen anzuzeigen.
++
+
+TIP: Möglicherweise möchten Sie z. B. nur die Warnmeldungen zur Kapazität anzeigen. Klicken Sie dazu auf das Filtersymbol in der Spalte Impact Area, wählen Sie *Capacity* und wählen Sie *Apply*.
+
++
+image:alerts-dashboard-capacity-filter.png["Warnmeldeseite mit den Filtern des Auswirkungsbereichs"]
+
+** Laden Sie eine CSV-Datei mit den Informationen zu Warnmeldungen herunter.
++
+Sie können bis zu 1000 Warnmeldungen herunterladen. Die Datei enthält Daten, die auf den eingestellten Filtern basieren.
+
+** Wählen Sie eine Warnmeldung aus, und informieren Sie sich über die Warnungsdetails auf diesem Cluster. Siehe link://alerts-use-alerts.html["Anzeigen von Alarmdetails"].
+
+
+

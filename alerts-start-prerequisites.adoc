@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: alerts-start-prerequisites.html 
+keywords: what are bluexp alerts requirements, bluexp alerts, alerts prerequisites 
+summary: Erste Schritte mit BlueXP -Warnmeldungen, indem Sie Support für Ihre Umgebung, Netzwerkzugriff, Anmeldung und Ihren Webbrowser überprüfen. 
+---
+= BlueXP  benachrichtigt die Voraussetzungen
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/get-started/
+
+
+[role="lead"]
+BlueXP  Warnmeldungen erleichtern den Einstieg, indem Sie die Bereitschaft Ihrer Betriebsumgebung überprüfen.
+
+Um BlueXP -Warnmeldungen zu verwenden, müssen Sie folgende Voraussetzungen erfüllen:
+
+* ONTAP 9 10 und höher. Die Arbeitsumgebung vor Ort muss in der BlueXP -Arbeitsfläche erkannt werden.
++
+** ONTAP-Berechtigungen für Cluster-Admin
++
+Die Lizenz muss nicht in BlueXP  Digital Wallet eingegeben werden.
+
+
+
+* In BlueXP:
++
+** Eine BlueXP -Arbeitsumgebung mit lokalem NetApp NAS- oder SAN-Storage
+** Ein BlueXP -Connector für eine On-Premises-Region muss in BlueXP  eingerichtet werden. Siehe https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["BlueXP Dokumentation zur Konfiguration des Connectors"^].
++
+Wenn ein Cluster aus einem BlueXP -Connector entfernt wird, bleiben die Warnmeldungen zu diesem Cluster 90 Tage lang erhalten. Wenn Sie den Connector ändern, bleiben die Warnungen auch 90 Tage lang mit dem ursprünglichen Cluster und Connector verknüpft. Wenn Sie zum ursprünglichen Konnektor zurückkehren, werden diese Warnungen erneut angezeigt.
+
+** Eine BlueXP -Organisation mit mindestens einem aktiven Connector, der mit den lokalen ONTAP-Clustern verbunden ist. Alle Quell- und Arbeitsumgebungen müssen sich in derselben BlueXP -Organisation befinden.
+** Ein BlueXP -Benutzer in dieser Organisation mit Organisationsadministrator-Privileges zur Ermittlung von Ressourcen
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["Standard-BlueXP Anforderungen erfüllt"^]
+
+
+

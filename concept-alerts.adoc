@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-alerts.html 
 keywords: netapp, ontap, alert, capacity, performance, availability, security, protection, bluexp, bluexp alerts 
-summary: BlueXP -Warnmeldungen sind ein Service, mit dem Sie Probleme oder potenzielle Risiken in Ihrer NetApp ONTAP-Umgebung in Bezug auf Kapazität, Performance, Verfügbarkeit und Sicherheit anzeigen können. Dank des NetApp können Sie mithilfe des Service detaillierte Daten abrufen. 
+summary: BlueXP -Warnmeldungen sind ein Service, mit dem Sie Probleme oder potenzielle Risiken in Ihrer NetApp ONTAP-Umgebung in Bezug auf Kapazität, Performance, Verfügbarkeit und Sicherheit anzeigen können. Dank des ONTAP können Sie mithilfe des Service detaillierte Daten abrufen. 
 ---
 = Informieren Sie sich über BlueXP -Warnmeldungen
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: BlueXP -Warnmeldungen sind ein Service, mit dem Sie Probleme oder pote
 
 
 [role="lead"]
-BlueXP -Warnmeldungen sind ein Service, mit dem Sie mithilfe des standardmäßigen BlueXP -Connectors Probleme oder potenzielle Risiken in Ihren lokalen NetApp ONTAP-Umgebungen anzeigen können. Dank des NetApp können Sie mithilfe des Service detaillierte Daten abrufen.
+BlueXP -Warnmeldungen sind ein Service, mit dem Sie mithilfe des standardmäßigen BlueXP -Connectors Probleme oder potenzielle Risiken in Ihren lokalen NetApp ONTAP-Umgebungen anzeigen können. Dank des ONTAP können Sie mithilfe des Service detaillierte Daten abrufen.
 
 
 

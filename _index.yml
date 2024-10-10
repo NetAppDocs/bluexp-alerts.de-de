@@ -2,13 +2,13 @@
 indexpage:
   title: Dokumentation zu BlueXP -Warnmeldungen
   summary: BlueXP -Warnmeldungen sind ein Service, mit dem Sie Probleme oder potenzielle
-    Risiken in Ihrer NetApp ONTAP-Umgebung anzeigen können. Mithilfe des NetApp können
+    Risiken in Ihrer NetApp ONTAP-Umgebung anzeigen können. Mithilfe des ONTAP können
     Sie Warnungsdetails anzeigen und Cluster-Informationen anzeigen.
   keywords: bluexp, ONTAP, alerts, system manager
   lead: BlueXP -Warnmeldungen sind ein Service, mit dem Sie Probleme oder potenzielle
     Risiken in Ihrer NetApp ONTAP-Umgebung in Bezug auf Kapazität, Performance, Schutz,
     Verfügbarkeit und Sicherheit anzeigen können. Über den Service können Sie Details
-    zu Warnmeldungen anzeigen und mit NetApp System Manager verknüpfte Cluster-Informationen
+    zu Warnmeldungen anzeigen und mit ONTAP System Manager verknüpfte Cluster-Informationen
     anzeigen.
   tiles:
   - title: Los geht's

@@ -54,7 +54,7 @@ Der BlueXP  Alerts Service erfordert eine NetApp ONTAP 9 10 oder eine höhere L
 
 Sie benötigen für diesen Service keine Testlizenz.
 
-Der Service kann nur im öffentlichen BlueXP -Standardmodus bereitgestellt werden. Weitere Informationen finden Sie unter link:alerts-start-licenses.html["Lizenzierung einrichten"].
+Der Service kann nur im öffentlichen BlueXP -Standardmodus bereitgestellt werden.
 
 
 

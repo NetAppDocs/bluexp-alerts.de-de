@@ -242,8 +242,6 @@
   <block id="82cf93c6b22e730b302286dee304e8cc" category="paragraph">Die Vollversion von BlueXP -Warnmeldungen kann mit einer NetApp ONTAP-Lizenz verwendet werden.</block>
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">Lizenzierung</block>
   <block id="1b083639d38de1b116aea6c5558968ec" category="paragraph">Der BlueXP  Alerts Service erfordert eine NetApp ONTAP 9 10 oder eine höhere Lizenz.</block>
-  <block id="e907b41f5f3d7332bee5a43fbbf78a08" category="inline-link-macro">Lizenzierung einrichten</block>
-  <block id="d69945d07ffe69d68b278fa3f6ee11ac" category="paragraph">Der Service kann nur im öffentlichen BlueXP -Standardmodus bereitgestellt werden. Weitere Informationen finden Sie unter <block ref="271bc4c83b3d27b2a7fc60eb23418118" category="inline-link-macro-rx"></block>.</block>
   <block id="55a90d444e30ddc01cd8a8da27cd9018" category="section-title">Funktionsweise von BlueXP -Warnmeldungen</block>
   <block id="3e552726fea4952e3fd397f2cbf69243" category="paragraph">Der BlueXP  Alerts Service ist eine wesentliche Komponente von BlueXP . Der BlueXP  Warndienst überwacht ONTAP-Cluster und empfängt Warnungsdaten von ONTAP.</block>
   <block id="78097856f6f945c9619179338ebbf597" category="paragraph">BlueXP -Warnmeldungen sind nur in der BlueXP -SaaS-Umgebung verfügbar. Es ist nicht in einer lokalen Konnektor-UI verfügbar.</block>
@@ -299,4 +297,5 @@
   <block id="864130dd293829108709c2327b91d445" category="paragraph">BlueXP -Warnmeldungen sind ein Service, mit dem Sie mithilfe des standardmäßigen BlueXP -Connectors Probleme oder potenzielle Risiken in Ihren lokalen NetApp ONTAP-Umgebungen anzeigen können. Dank des ONTAP können Sie mithilfe des Service detaillierte Daten abrufen.</block>
   <block id="a138b80b6963a03eb4d692dbdc025e3e" category="sidebar">BlueXP -Warnmeldungen sind ein Service, mit dem Sie Probleme oder potenzielle Risiken in Ihrer NetApp ONTAP-Umgebung in Bezug auf Kapazität, Performance, Schutz, Verfügbarkeit und Sicherheit anzeigen können. Über den Service können Sie Details zu Warnmeldungen anzeigen und mit ONTAP System Manager verknüpfte Cluster-Informationen anzeigen.</block>
   <block id="164a30a809f9f6485699e82e4c81d60c" category="sidebar">BlueXP -Warnmeldungen sind ein Service, mit dem Sie Probleme oder potenzielle Risiken in Ihrer NetApp ONTAP-Umgebung anzeigen können. Mithilfe des ONTAP können Sie Warnungsdetails anzeigen und Cluster-Informationen anzeigen.</block>
+  <block id="83e69dcb76418af8dc10c3db810ded80" category="paragraph">Der Service kann nur im öffentlichen BlueXP -Standardmodus bereitgestellt werden.</block>
 </blocks>

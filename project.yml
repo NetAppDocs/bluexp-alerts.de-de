@@ -16,7 +16,9 @@ sidebar:
   - title: Dokumentation zu BlueXP -Warnmeldungen
     url: "/index.html"
   - title: Versionshinweise
-    url: "/whats-new.html"
+    entries:
+    - title: Neuerungen bei BlueXP -Warnmeldungen
+      url: "/whats-new.html"
   - title: Los geht's
     entries:
     - title: Informieren Sie sich über BlueXP -Warnmeldungen

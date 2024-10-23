@@ -28,5 +28,5 @@ Nachdem Sie den Service eingerichtet haben, gehen Sie wie folgt vor.
 
 [role="quick-margin-list"]
 * link:alerts-use-dashboard.html["Zeigen Sie Storage-Probleme und potenzielle Risiken auf der Seite mit den Warnmeldungen an"].
-* link:alerts-use-alerts.html["Zeigen Sie Warnungsdetails in System Manager an"].
+* link:alerts-use-alerts.html["Zeigen Sie Details zu Warnmeldungen in ONTAP System Manager an"].
 

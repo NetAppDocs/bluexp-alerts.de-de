@@ -1,24 +1,6 @@
----
-sidebar: sidebar 
-permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, ontap, bluexp, system manager' 
-summary: Erfahren Sie, welche neuen BlueXP -Warnmeldungen es gibt. 
----
-= Neuerungen bei BlueXP -Warnmeldungen
-:hardbreaks:
+= Seite mit der BlueXP -Meldungsliste
 :allow-uri-read: 
-:nofooter: 
-:icons: font
-:linkattrs: 
-:imagesdir: ./media/
 
-
-[role="lead"]
-Erfahren Sie, welche neuen BlueXP -Warnmeldungen es gibt.
-
-
-
-== 7 Oktober 2024
 
 
 

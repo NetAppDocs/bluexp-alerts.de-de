@@ -37,7 +37,7 @@ BlueXP  Alerts bietet die folgenden Vorteile:
 
 * Alarmmeldungen zu ONTAP Storage in Clustern erhalten.
 * Zeigen Sie Warnmeldungen in derselben BlueXP -Benutzeroberfläche an, die Sie auch für andere Dienste verwenden.
-* Detaillierte Informationen zu ONTAP-Clustern – beginnen Sie mit BlueXP -Warnungen und sehen Sie Details im NetApp-System-Manager.
+* Detaillierte Informationen zu ONTAP-Clustern – beginnen Sie mit BlueXP -Warnungen und sehen Sie Details im ONTAP-System-Manager.
 
 
 

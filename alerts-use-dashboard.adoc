@@ -139,7 +139,7 @@ EMS-Warnungen:
 
 
 ====
-Details zu ONTAP-Warnmeldungen finden Sie in der ONTAP-Dokumentation und in den Erkenntnissen zu System Manager unter https://docs.netapp.com/us-en/ontap/concepts/insights-system-optimization-concept.html["System Manager bietet Einblicke in Kapazitäts-, Sicherheits- und Konfigurationsprobleme"^].
+Details zu ONTAP-Warnmeldungen finden Sie in der ONTAP-Dokumentation und in den Erkenntnissen zu ONTAP System Manager unter https://docs.netapp.com/us-en/ontap/concepts/insights-system-optimization-concept.html["ONTAP System Manager bietet Einblicke in Kapazitäts-, Sicherheits- und Konfigurationsprobleme"^].
 
 
 

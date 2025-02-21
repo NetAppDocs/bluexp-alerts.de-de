@@ -34,7 +34,7 @@ Sie können Details zu Warnmeldungen anzeigen und Empfehlungen finden.
 
 
 
-=== Zeigen Sie mit System Manager verknüpfte Cluster-Details an
+=== Zeigen Sie mit dem ONTAP System Manager verknüpfte Cluster-Details an
 
 Dank BlueXP -Warnmeldungen lassen sich Warnmeldungen zu Ihrer ONTAP Storage-Umgebung anzeigen sowie Details anzeigen, die mit ONTAP System Manager verknüpft sind.
 
